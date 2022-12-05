@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Post Name</title>
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="default.css">
+
+
+	<style type="text/css">
+		.img-container{
+			max-width: 600px;
+		}
+
+		img{
+			width: 100%
+		}
+
+	</style>
+
+</head>
+<body>
+	<div class="nav-wrapper">
+
+		<!-- Link around dots-wrapper added after tutorial video -->
+		<a href="index.html">
+			<div class="dots-wrapper">
+				<div id="dot-1" class="browser-dot"></div>
+				<div id="dot-2" class="browser-dot"></div>
+				<div id="dot-3" class="browser-dot"></div>
+			</div>
+		</a>
+
+		<ul id="navigation">
+			<li><a href="index.html#contact">Contact</a></li>
+
+		</ul>
+	</div>
+
+	<div class="main-container">
+		<br>
+
+		<div class="img-container">
+			<img src="images/mainpic.png">
+		</div>
+		
+		<h3>Automated Metadata tagging and Content Summarization </h3>
+
+		<p>This was my Senior Design Process in order to graduate from College. We were given the task to create a Metadata Tagging and content Summarization when a PDF, WORD or Video were uploaded.
+		<br>
+		<br>
+		Metadata describes learning content and will include a short metadata tag of several words, a longer description of the subject using T5 abstractive text summarization, the page and line number and the document it was found in.
+		<br>
+		<br>
+		This information will be stored in a database. The focus is on documents and videos. Video files uploaded to the system will generate a transcript through a sub-system before running through the main system.
+		<br>
+		<br>
+		Solution will also generate a Table of Contents, a document and video summary. Example videos and documents related to ship handling.
+		<br>
+		<br>
+		A front end will also be created to access the database to search and access tagged content.
+		<br>
+		<br>
+		<a href="https://nsinfaumeta.hpc.fau.edu/" target="_blank">Click here to access the Project's Website</a>
+	
+		</p>
+
+		<h5>Technologies:</h5>
+		<ul>
+			<li>- Python</li>
+			<li>- Django + Django REST Framework</li>
+			<li>- T5</li>
+			<li>- Amazon Optika</li>
+			<li>- Pytesseract</li>
+			<li>- MySQL</li>
+			<li>- Google Maps API</li>
+			<li>- XML2PDF - PDF generator</li>
+		</ul>
+
+
+		<h5>Process PDF</h5>
+		<div class="img-container">
+			<img src="images/1.png">
+		</div>
+
+		<h6>Process Video</h5>
+		<div class="img-container">
+			<img src="images/2.png">
+		</div>
+
+		<h5>Search Data</h5>
+		<div class="img-container">
+			<img src="images/3.png">
+		</div>
+
+		<h5>Block Diagram</h5>
+		<div class="img-container">
+			<img src="images/Picture1.png">
+		</div>
+
+		<h5>Collaborators</h5>
+		<div class="img-container">
+			<img src="images/5.png">
+		</div>
+
+	</div>
+
+</body>
+</html>
